@@ -5,8 +5,9 @@ def simple_generator(n):
         idx += 1
 
 
-s = simple_generator(n=1_000_000_000)  # s - generator; next(s)
-print(s)
+if __name__ == '__main__':
+    s = simple_generator(n=1_000_000_000)  # s - generator; next(s)
+    print(s, 'hi from `list_generation`')
 # for i in simple_generator(n=5):
 #     print(i)
 #
