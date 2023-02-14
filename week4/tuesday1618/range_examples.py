@@ -1,3 +1,5 @@
+# range_examples - module
+
 # range_number = range(0, 1_000_000_000)  # work only with 1 element
 # print(range_number)
 # numbers_list = [i for i in range(0, 1_000_000_000)] # we try to append 1bil elements into our list
