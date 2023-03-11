@@ -1,0 +1,45 @@
+1) no
+2) memory
+3) __next__; __iter__;
+4) class Serializer(json.Decoder/Encoder) => method default; json.dumps(cls=Serializer)
+5) datetime - даты, timedelta - diff
+6) r in regex - вырубает \
+7) * - 0 or more; [] - or; () - groups; <P> - named groups; \d - digits
+8) os - work with os; shutil - work with files
+9) yes - lock
+10) with - auto close
+11) try except else finally
+12) try - try to run block of code; except - catch error; else - success try; finally
+13) r - read; w - write; a - append; r+; x
+
+diff re.search(^); re.match()
+raise StopIteration()
+
+module a; abc
+module b; abc
+
+import a, b
+from a import abc as abc1
+from b import abc as abc2
+abc1()
+abc2()
+
+a.abc(); b.abc()
+
+def main():
+    pass
+
+
+if name == __main__:
+    main()
+
+
+f = open()
+with open as f
+
+
+relative and absolute path - ./data.txt - rel
+abs - /Users/roman/Desktop/lectures/pp2/pp2-spring2023/week10/general/data.txt
+
+# получить объект у которого есть next => а уже потом пробегаться
+for line in file:
